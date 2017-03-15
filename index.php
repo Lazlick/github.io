@@ -8,7 +8,7 @@ if (!isset($_REQUEST)) {
 $confirmation_token = '355dc26a'; 
 
 //Ключ доступа сообщества 
-$token = '8b8d1a09054aba5201ca76d9a502dd9ec383d7caa20e08dc857783a69a614973b005c0652eae08ec268cb'; 
+$token = '2e3de642870c060fa044c09fb7821227e08fdce2aa35e4a8af494c209b5eb98eb408e71ad3b7717755988'; 
 
 //Получаем и декодируем уведомление 
 $data = json_decode(file_get_contents('php://input'));
